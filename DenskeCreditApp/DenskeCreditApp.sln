@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{49023698-8081-42AF-BE7D-696EEDCA67B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A4C0C0E3-0AB3-47B5-9AF0-B549344F1977}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DenskeCreditApp.api", "DenskeCreditApp.api\DenskeCreditApp.api.csproj", "{C53A351C-1001-4BE6-9CA0-06F31A0D7FA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DenskeCreditApp.Framework", "DenskeCreditApp.framework\DenskeCreditApp.Framework.csproj", "{9118B8CE-EC43-498D-B57B-2C3599412669}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DenskeCreditApp.Infrastructure", "DenskeCreditApp.infrastructure\DenskeCreditApp.Infrastructure.csproj", "{37F30EAC-71A3-42A4-AFEC-D58F43FD3E12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DenskeCreditApp.Domain", "DenskeCreditApp.Domain\DenskeCreditApp.Domain.csproj", "{7EB29B0F-170B-42B7-9F09-7C0172106207}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DenskeCreditAppTest.Api", "DenskeCreditAppTest.Api\DenskeCreditAppTest.Api.csproj", "{B97F5884-7948-44C4-8CEB-6B3BB83F8A98}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C53A351C-1001-4BE6-9CA0-06F31A0D7FA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C53A351C-1001-4BE6-9CA0-06F31A0D7FA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C53A351C-1001-4BE6-9CA0-06F31A0D7FA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C53A351C-1001-4BE6-9CA0-06F31A0D7FA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9118B8CE-EC43-498D-B57B-2C3599412669}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9118B8CE-EC43-498D-B57B-2C3599412669}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9118B8CE-EC43-498D-B57B-2C3599412669}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9118B8CE-EC43-498D-B57B-2C3599412669}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37F30EAC-71A3-42A4-AFEC-D58F43FD3E12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37F30EAC-71A3-42A4-AFEC-D58F43FD3E12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37F30EAC-71A3-42A4-AFEC-D58F43FD3E12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37F30EAC-71A3-42A4-AFEC-D58F43FD3E12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EB29B0F-170B-42B7-9F09-7C0172106207}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EB29B0F-170B-42B7-9F09-7C0172106207}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EB29B0F-170B-42B7-9F09-7C0172106207}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EB29B0F-170B-42B7-9F09-7C0172106207}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B97F5884-7948-44C4-8CEB-6B3BB83F8A98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B97F5884-7948-44C4-8CEB-6B3BB83F8A98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B97F5884-7948-44C4-8CEB-6B3BB83F8A98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B97F5884-7948-44C4-8CEB-6B3BB83F8A98}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C53A351C-1001-4BE6-9CA0-06F31A0D7FA9} = {49023698-8081-42AF-BE7D-696EEDCA67B3}
+		{9118B8CE-EC43-498D-B57B-2C3599412669} = {49023698-8081-42AF-BE7D-696EEDCA67B3}
+		{37F30EAC-71A3-42A4-AFEC-D58F43FD3E12} = {49023698-8081-42AF-BE7D-696EEDCA67B3}
+		{7EB29B0F-170B-42B7-9F09-7C0172106207} = {49023698-8081-42AF-BE7D-696EEDCA67B3}
+		{B97F5884-7948-44C4-8CEB-6B3BB83F8A98} = {A4C0C0E3-0AB3-47B5-9AF0-B549344F1977}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D6A5627-99B9-4A8B-B532-78FFABC9F18D}
+	EndGlobalSection
+EndGlobal
